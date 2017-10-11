@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+       
+}
+a{
+    text-decoration:none;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+                  
+
+.main-header{
+    background-color: rgba(232, 99, 78, 1);
+}
+.logo a{
+    font-family: 'Pacifico', cursive;
+    color:white;
+}
+.main-nav a{
+    color: white;
+    margin-right: 5px;
+    padding: 8px;
+}
+ .main-nav a:last-child{
+    margin-right: 0;
+    }
+.main-nav i{
+    color:aqua;
+    margin-right: 3px;
+}
+.bann-avatar{
+    border-radius:50%;
+    width: 490px;
+    height:820px;
+}
+.bann-wrapper{
+    
+    display: flex;
+    justify-content: center;
+    position:relative;
+    margin: 40px 0;
+}
+.bann-caption {
+    position: absolute;
+    left: 10px; right: 10px;  bottom: 10px;
+    bottom: 90px;
+    font-family: 'Josefin Slab', serif;
+    color: red;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+.bann-heaing{
+    font-size: 60px;
+}
+.loveJS {
+    font-size:50px;
+    margin: 20px;
+    color: #22f1e0;
+}
+
+
